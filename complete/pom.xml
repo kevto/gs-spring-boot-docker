@@ -76,6 +76,6 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement> <repository> <id>bintray-kevto-maven</id> <name>kevto-maven</name> <url>https://api.bintray.com/maven/kevto/maven/nl/berendsen/kevin/spring-boot-docker/;publish=1</url> </repository> </distributionManagement>
+    <distributionManagement> <repository> <id>bintray-kevto-maven</id> <name>kevto-maven</name> <url>https://api.bintray.com/maven/kevto/maven/gs-spring-boot-docker/;publish=1</url> </repository> </distributionManagement>
 
 </project>
