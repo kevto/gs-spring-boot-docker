@@ -14,6 +14,11 @@ public class Application {
         return "Hello Docker World";
     }
 
+    @RequestMapping("/new-endpoint")
+    public String newEndpoint() {
+	return "Amazing how this easily works.."
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
