@@ -16,7 +16,7 @@ public class Application {
 
     @RequestMapping("/new-endpoint")
     public String newEndpoint() {
-	return "Amazing how this easily works..";
+	return "Changed message to...: NOTHING.";
     }
 
     public static void main(String[] args) {
